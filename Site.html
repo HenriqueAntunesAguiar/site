@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML5 e CSS3</h1>
+        <nav>
+                    <a href="Navegação/Mídia.html">Mídia</a><a href="Navegação/Listas.html">Listas</a><a href="Navegação/Estrutura.html">Estruturas</a><a href="Navegação/Perfumaria.html">Perfumaria</a><a href="Navegação/Ancoragem.html">Ancoragem</a><a href="Navegação/Títulos e parágrafos.html">Títulos e Parágrafos</a>   
+        </nav>
+    </header>
+
+    <main>
+        <h2>Conceitos de Título e Parágrafo</h2>
+            <p> Como basicão temos os título que vão de h1 até h6 onde cada título é inversamente escalonado.</p>
+                <ul>
+                    <li><h1 id="semfundo">H1</h1></li>
+                    <li><h2 class="exemplo">H2</h2></li>
+                    <li><h3>H3</h3></li>
+                    <li><h4>H4</h4></li>
+                    <li><h5>H5</h5></li>
+                    <li><h6>H6</h6></li>
+                </ul>
+                <p>
+                Para definirmos o parágrafo temos o p e /p que forma sua estrutura.
+                </p>
+        <h2>
+    
+            Estrutura
+            
+        </h2>
+            <p> Dentro do código temo o head e /head que forma a configuração do site, style, tiltulo, UTF-8 (caracter portugues) antre outros metas.Style é usado para configurar a parte visual com CSS do site dentro da configuração head como visto anteriormente.Para cabeçarios iguais o <mark><strong>"HTML5 e CSS"</mark></strong> colocamos dentro do body e /body.
+            </p>
+        <h2>Algumas perfumarias</h2>
+            <p>
+                Para utilização de marca texto usamos o <mark><strong>mark e /mark</strong></mark><br>
+                i e /i para <i>itálico</i>
+                u e /u para <u>sublinhado</u><br>
+                em e /em para dar <em>ênfase</em> em uma palavra<br>
+                sup e /sup para números elevados como 5<sup>12</sup><br>
+                sub e /sub para números químicos como H<sub>2</sub>O<br>
+                strong e /strong para <strong>negrito</strong><br>
+            </p>
+
+        <h2>Listas</h2>
+            <p>
+                Para listas definimos como ul e /ul para listas não ordenadas como as anteriores; ol e /ol usada para listas ordenadas como:
+            </p>
+                <ol>
+                    <li>Acordar</li>
+                    <li>Levantar</li>
+                    <li>Escovar os dentes</li>
+                    <li>Colocar a roupa</li>
+                </ol>
+                <p>
+                Lembrando que colocamos li e /li dentro da ol ou ul para definirmos aquilo como pertecente à uma lista.
+                Também podemos definir tipos dentro da lista ao usar li type na ol:
+            </p>
+            <ol type="I">
+                <li>'a' indica letras minúsculas,</li>
+                <li>'A' indica letras maiúsculas,</li>
+                <li>'i' indica algarismos romanos minúsculos,</li>
+                <li>'I' indica algarismos romanos maiúsculos,</li>
+                <li>'1' indica números (padrão)</li>
+            </ol>
+            <p>
+            Para as ul temos como colocar ul dentro de outras ul's.
+            </p>
+            <ul>
+                <li>círculo</li>
+                <ul>
+                    <li>disco</li>
+                    <ul>
+                        <li>quadrado</li>
+                    </ul>
+                </ul>
+                
+            </ul>
+        <h2>Mídias</h2>
+            <p>
+                Quando colocamos imagens no site, devemos pensar no conceito de caso o cliente abre o site devemos pensar se será aberto no celular, tablet e computador.
+                Para computador podemos colocar uma imagem em até 1000px, para tablets 700px e celulares 350px está muito bem entregue.
+                Para definirmos devemos usar <strong>source</strong> e <strong>/source</strong> em que comece no em cima da maior imagem e termine em baixo da menor.
+                <br>
+                Sintaxe imagem:
+            </p>
+                <strong>
+                <pre>
+            source
+            img src="link/arquivo" alt=""
+            /source
+                </pre>
+                </strong>
+                <p>
+                    Para colocarmos imagens como essa:
+                </p>
+                <br>
+                <source> 
+                    <img src="https://conteudo.imguol.com.br/c/esporte/fc/2022/01/10/casimiro-realizou-live-que-reuniu-mais-de-130-mil-pessoas-na-twitch-1641863703445_v2_1x1.jpg" alt=""> 
+                </source>
+                    <p>
+                        Para vídeos usamos o compartilhar do YouTube que gera a estrutura certa do vídeo.
+                    </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>
+            Ancoragem
+            </h2>
+            <p>
+            Para ancoragem usamos a e /a onde a sintaxe é:
+            </p>
+            <strong>
+            <pre>
+            a href = Link/arquivo html (entre aspas) >Palavra< /a
+            </pre>
+            </strong>
+            <p>
+                Para ancoragem de links externo onde queremos abrir em uma janela em branco usamos:
+            </p>
+                <strong>
+            <pre>
+            a href= link (entre "") target="_blank" (para pegar uma janela em branco) 
+            rel="external"(para ser uma página externa)> (onde vai ficar o link) /a </a>
+            </pre>
+                </strong>
+        <h2>Cores</h2>
+        <p>
+            As cores são muito mais que apenas aspectos visuais em um site, 
+            também surtindo sentimentos a quem ve e tornando-se um padrão em 
+            alguns tipos de site como podemos ver na imagem abaixo.
+        </p>
+        <br>
+        <source><img src="Imagens/Cores.jpeg" alt="">
+        <p>
+            Como visto as cores são dividas em sentimentos/ sites de exemplo onde podemos notar sua aparência.
+        </p>
+        <h2>Harmonia das cores</h2>
+        <p>
+            As cores também possuiem harmonia entre elas em que podemos dizer que as cores usadas em conjunto dão um destaque
+            beleza para seu site.
+            <br>Para pegar opções de paletas, o <a href="https://color.adobe.com/pt/create/color-wheel" target="blank" rel="external">Adobe Color</a>
+            é um site da Adobe que 
+            cria paletas de cores para seu site e o torna muito mais bonito visualmente.
+        </p>
+        <img src="Imagens/Harmonia das cores.jpeg" alt="">
+        <br>
+        <h2>BackGround Image</h2>
+        <p>
+            Vimos que podemos utilizar o background-color no style/body para colocarmos a cor de fundo.
+            <br>
+            Contudo podemos utilizar a seguinte sintaxe:
+            <br>
+        </p>
+            <pre>
+            <strong>
+        style   
+            body
+                background-image: linear-gradient(direção, cor1, cor2, cor3, etc)
+            /body
+        /style
+            </strong>
+            </pre>
+        <p>
+            Assim criamos um degrade, podendo colocar como direção em graus com "90deg" ou as quatro direções:
+        </p>
+            <ul>
+                <li>to top</li>
+                <li>to right</li>
+                <li>to left</li>
+                <li>to botom</li>
+            </ul>
+        <p>
+            Contudo também temos que escrever no caso de top e botom a seguinte sintaxe:
+        </p>
+            <pre><strong>
+        * {
+            height: 100%
+        }</strong></pre>
+        <p>
+            Onde o * serve para determinar uma configuração global e depois a altura.
+            <br>
+            Podemos colocar depois da cor a % dela correspondente a tela, assim modificando o degrade.
+        </p>
+
+        <!-- STYLE -->
+        <h2>Style: Criando Estilo Global</h2>
+        <p>
+            Podemos criar um arquivo de style usando dentro do head a sintaxe:
+        </p>
+            <pre>
+                <strong>
+        link rel="stylesheet" href="style.css"
+                </strong>
+            </pre>
+        <p>
+            Onde no style.css colocaremos tags como:
+        </p>
+            <ul>
+                <li>@charset "UTF-8" - para usarmos caracteres da lingua portuguesa;</li>
+                <li>Partes da head como:
+                    <ul>
+                    <li>h1</li>
+                    <li>h2</li>
+                    <li>main (conceito usado para aglobar uma parte do código</li>
+                    <li>p</li>
+                    </ul>
+                </li>
+            </ul>
+        <p>
+            Lembrando que todas usando {}.
+            <br>
+            E para colocar dentro das chaves temos contudos como background-image, box-shadow, text-shadow, <br>width, margin, padding, border-radius entre outros.
+        </p>
+        <p>
+            Para criar efeito de sombra usamos o box-shadow em px sendo lado; baixo; distância de sombreado; cor.
+        </p>
+        <!-- TEXTOS -->
+        <h2>Textos</h2>
+        <p>
+            Algumas tags de texto:
+        </p>
+            <ul>
+                <li>font-family: 'fonte'; - usado para definir a fonte do site
+                    <ul>
+                    <li>Voce pode usar fontes repetidas para caso uma não seja compatível ele usar a príxmo, exemplo:
+                        <li> font-family: 'fonte1','fonte2', 'fonte3'</li>
+                    </ul>
+                    </li>
+                </li>
+                <li>font-size: 10em; - usado para definir tamanho da fonte</li>
+                <li>font-weight ; - usado para definir o peso da fonte. Podendo ser light, normal, bold e bolder.</li>
+                <li>font-style ; - usado para deixar o texto em itálico, negrito e etc.</li>
+            </ul>
+        <p>
+            Podemos deixar todas as configurações em uma unica linha usando o font, contudo a ordem dos argumentos tem que ser font: <br>
+            <strong> font-style, font-weight, font-size, font-family </strong><br>
+            Exemplo: <br>
+            font: italic bolder 3m 'Arial';
+            <br>
+            É possível usar a formula com menos um valor, contudo tem que permanecer na ordem.
+        </p>
+        <p>
+            Também podemos importar fonts usando o <a href="https://fonts.google.com" target="_blank" rel="external">Google Fonts</a> em que precisa estar conectado a internet, <br>
+            contudo não é preciso baixar. <br>
+            Caso você queira usar uma fonte externa e baixada, deve ser usado o comando <strong>font-face ;</strong>
+        </p>
+        <!-- ALINHAMENTOS -->
+        <h2>Alinhamentos</h2>
+            <p>
+                Ainda dentro do style, podemos definir como ficará centralizado nosso texto. Exemplo:
+                <br>
+                <strong>text-aling: center;</strong> ou <strong>text-aling: right;</strong> ou para parágrafos <strong>text-aling: justify;</strong>
+                <br>
+                Para efeito do tab no início dos parágrafos, é usa o <strong>text-indent: 20px;</strong>
+            </p>
+            <br>
+        <!-- SELETORES -->
+        <h2>Seletores</h2>
+            <p>
+                Para criar uma identificação única do seu elemento no site, devesse usar id='apelida', como na sintaxe:
+            </p>
+                <strong>
+                        <pre>
+        h1 id="principal" /h1       
+                        </pre>
+                    </strong>
+            <p>
+                E quando precisar chamar esse id dentro do style usaremos <strong>h1#principal{}</strong>.
+            </p>
+                <p>
+                Posso usar a mesma configuração para mais de um elemento, contudo não devo usar id e <strong>class</strong><br>
+                onde sua identificação é o '.'. <br>
+                Contudo é indicado colocar somente .apelido dentro do style pois podemos chamar posteriormente as configurações da class <br>
+                em uma palavra usando <strong>span class='apelido'> texto /span></strong>. <br>
+                Podemos utilizar mais de uma classe dentro de class usando somente <strong>apelido1 apelido2</strong>
+                </p>
+
+        <!-- PSEUDO CLASSES -->
+                <h2>Pseudo-Classes</h2>
+                    <p>
+                        As Pseudo-Classes são definidas com <strong>:</strong>, diferentemente da class que é <strong>.</strong> e o id representado por <strong>#</strong>.
+                        <br>
+                        Dentro das Pseudo-Classes temos o <strong>:hover</strong> que define que quando passamos o mouse por cima de um objeto ele faz uma determinada ação como por exemplo trocar o plano de fundo do texto.
+                        <br>
+                        Outra Pseudo-Classe é a <strong>:vistied</strong> que é usada para definir quando seu link ja foi visitado, por exemplo.
+            <pre>
+                a:visited {
+                    color: blue;
+                    text-decoration: none
+                }
+            </pre>
+                    <p>
+                        <br>
+                        Assim quando a pessoa ja entrou ele vai continuar azul porém sem underline. Agora, caso você queira usar o underline quando passar o mouse por cima, basta colocar o <strong>:hover</strong> e o <strong>:active</strong> para quando eu clicar.
+                    </p>
+            <pre>
+                a:hover {
+                    color: black;
+                    text-decoration: underliner;
+                }
+            </pre>  
+                    <p>
+                        <br>
+                        Para indicar quem queremos modificar um elemento dentro do .especial do h1, usamos a tag <strong>></strong> que significa que aquele elemento é filho de alguma tag como div e etc.
+                        <br>
+                    </p>
+            <h2>Caixas!</h2>
+            <p>
+                Dentro das caixas temos algumas medidas, sendo elas:
+                <ul>
+                    <li>hight - altura</li>
+                    <li>width - largura</li>
+                    <li>border - borda</li>
+                    <li>padding - diferença da borda e largura/altura</li> 
+                    <li>margin - margem</li>
+                    <li>outline - contorno/traçado</li>
+                </ul>
+                <br>
+                <p>Tipos de caixa:
+                <br>
+                <strong>box-level</strong>: Sempre pula para a linha de baixo do texto e ocupa a largura toda do navegador. (div, h1-h6, p, main, header, nav, article, aside, footer, form, video)
+                <strong>inline-level</strong>: Desenha do lado da linha e faz o tamanho da caixa exatamente do conteudo dele. (span, a, code, small, strong, em, sup/sub, label, button, input, select)
+                </p>
+        
+        <!-- Grouping Tags-->
+        <h2>Grouping Tags</h2>
+        <p>
+            As <strong>Grouping Tags</strong> são utilizadas para agrupar blocos de código, onde é possível colocar tags dentro delas, como por exemplo main e /main. 
+            <br>
+            Contudo temos algumas tags para listar.
+        </p>
+            <strong>
+                <ul>
+                    <li>nav - utilizada para menus</li>
+                    <li>header - diferente de head é para montar o cabeçario.</li>
+                    <li>footer - rodapé da página</li>
+                    <li>selection -  usado para agrupar em geral</li>
+                </ul>
+            </strong>
+            <!-- BOX SHADOW -->
+        <h2>Shadow Box</h2>
+            <p>
+                O style box-shadow é bem simples que parte de inserir sombreamento a caixas como essa que está no título, menu ou header do site. 
+                <br>
+                Para utilizarmos ele bastar colocar as quatro medidas em pixel e depois sua cor:
+            </p>
+                <pre><strong>
+        box-shadow{
+            1px 1px 1px 1px black;
+                    }
+                </strong></pre>
+            
+        <h2>Arredondamento de Vértices</h2>
+        <p>
+            Para arredondar a borda usamos o código <strong>border-radius</strong> e o tanto que devemos arredondar em px. <br>
+            Contudo temos como arredondar separadamente cada borda usando border-bottom-right/left ou border-top-right/left para criar o efeito desejado.
+        </p>
+        <h2>:root</h2>
+        <p>
+            O <strong>root</strong> é a definição de que todos os outros elementos vão ter a mesma configuração dele, como as variáveis.
+        </p>
+        <h2>Variáveis</h2>
+        <p>
+            As variáveis são tags que trocam seu valor conforme definido. Normalmente definidas dentro do root, as variáveis tem a sintaxe de:
+        </p>
+        <pre>
+        --variável: valor;
+        </pre>
+        <p>
+            Podendo ser essa valor uma cor, número ou texto. Para chamar a variável devemos usa a sintaxe:
+        </p>
+        <pre>
+        var(--variável)
+        </pre>
+        <h2>Reponsividade</h2>
+            <p>
+                Podemos usar as tags min-width e max-width em px para deixar o contudo de texto sem quebrar para uma barra lateral, contudo se passar o min ele acaba quebrando. Para min temos como referência 320px (celulares antigos) e máx 800px.
+            </p>
+            <p>
+                Agora, para imagens temos como criar o css img { width: 100%} que a imagem vai reduzindo conforme a tela diminui. <br>
+                Contudo temos a possibilidade de criar a seguinte sintaxe:
+            </p>
+                <pre>
+        picture
+        source 
+        media="max ou min-width:'X'px" (recomendado o max) srcset="caminho da imagem"
+        /source
+        /picture
+                </pre>
+        <h2>Atraso de animação</h2>
+            <p>Para criar um atraso de animação, devemos utilizar a tag <strong>transition-duration: tempo</strong>, para criar o seguinte efeito:</p>
+        <h2>Trabalhando com Imagens e Divs</h2>
+            <p>
+                Aqui vamos ver como colocar imagens no plano de fundo, para isso iremos fazer um site em que iremos separar as imagens em divs em que a tag style vai ter um <strong>display: iline-block</strong>. Essa tag deixa as divs uma do lado da outra.
+                Segue caminho para o exercício:
+                <a href="Ex006/index.html" target ='_blank'>aqui</a> <br>
+                Também vimos que utilizando a tag <strong>url('caminho')</strong> dentro da background-image podemos colocar uma imagem de fundo no nosso site.
+            </p>
+        <h2>Configurando o background</h2>
+        <p>
+            Temos algumas tags para desenvolver um fundo de site mais organizado como a <strong>background-size: px px</strong> em que definimos o tamanho do back-ground e o background-repeat: [repeat-x (repete no eixo X), repeat-y (repete no eixo Y), no-repeat (repete somente uma vez), repeat (repete para a página toda - geralmente padrão.)]
+        </p>
+        <p>
+            Podemos selecionar a posição da imagem. De padrão, a imagem começa no topo esquerdo da figura, contudo podemos mudar usando a tag <strong>background-position: (top,center,bottom,left,right/ top,center,bottom,left,right.</strong>
+            <br>
+            Abaixo o link de exemplo da tag:
+            <br>
+            <a href="Ex006/index2.html" target="_blank">Aqui</a>
+            <p>
+                Para fazer a imagem caber corretamente no fundo do site temos duas tags, a <strong>background-size: cover</strong> e a <strong>background-size:contain</strong>. A cover faz com que a imagem não seja exibida por inteiro, contudo ele se adápta para cobrir o site todo, enquanto o contain exibe tudo mas distorcendo a imagem.
+                <br>
+                <strong>Podemos completar com a tag background-attachment: fixed</strong> que faz com que a imagem depois de acabar, não quebre e sim fiquei fixa para todo o site.
+            </p>
+        </p>
+        <h2>Alterando verticalmente posição das Caixas</h2>
+        <p>
+            Para alterar verticalmente uma caixa, precisamos inserir uma div dentro de outra div em que a div de <strong>fora tenha o position relative</strong> e a de <strong>dentro absolute</strong>.
+            <pre>
+    section
+                article
+                /article
+    /section
+            </pre>
+        </p>
+    </main>
+    <footer>
+        <p> Site produzido por Henrique Antunes Aguiar</p>
+        <p>VOLTAR</p>
+    </footer>
+</body>
+</html>
