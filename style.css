@@ -53,6 +53,7 @@ nav > a:hover{
 
 main{
     margin: 50px 5vw;
+    position: relative;
 }
 
 div {
@@ -71,7 +72,7 @@ div h2{
 div.cesquerda{
     border: 1px solid black;
     width: 23vw;
-    height: auto;
+    height: 10vh;
     
     margin-left: 15vw;
     margin-right: 5.5vw;
@@ -80,7 +81,7 @@ div.cesquerda{
 div.cdireita{
     border: 1px solid black;
     width: 23vw;
-    height: auto;
+    height: 10vh;
     
     margin-right: 15vw ;
     padding: 1vw;
@@ -97,7 +98,8 @@ div.ccentro{
 }
 
 div#c1{
-    top: -;
+    position: absolute;
+    top:-100px;
 }
 footer p{
     margin: 0px;

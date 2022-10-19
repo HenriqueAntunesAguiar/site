@@ -15,7 +15,7 @@
         </nav>
     </header>
     <main>
-        <div class="cesquerda">
+        <div class="cesquerda" id="c1">
             <h2>Conceitos de Título e Parágrafo</h2>
             <p> Como basicão temos os título que vão de h1 até h6 onde cada título é inversamente escalonado.</p>
                 <ul>
@@ -33,9 +33,8 @@
         </div>
         <div class="cdireita" id="c1">
             <h2>
-    
                 Estrutura
-                
+
             </h2>
             <p>
                 Dentro do código temo o head e /head que forma a configuração do site, style, tiltulo, UTF-8 (caracter portugues) antre outros metas.Style é usado para configurar a parte visual com CSS do site dentro da configuração head como visto anteriormente.Para cabeçarios iguais o <mark><strong>"HTML5 e CSS"</mark></strong> colocamos dentro do body e /body.
@@ -328,7 +327,7 @@ a:hover {
                         Para indicar quem queremos modificar um elemento dentro do .especial do h1, usamos a tag <strong>></strong> que significa que aquele elemento é filho de alguma tag como div e etc.
                     </p>
         </div>
-        <div class="cdireita">
+        <div class="cdireita" id="ajustar-caixa">
             <h2>Caixas!</h2>
                 <p>
                     Dentro das caixas temos algumas medidas, sendo elas:
@@ -401,7 +400,7 @@ box-shadow{
 var(--variável)
                 </pre>
         </div>
-        <div class="cdireita">
+        <div class="cdireita" id="ajustar-responsividade">
             <h2>Reponsividade</h2>
                 <p>
                     Podemos usar as tags min-width e max-width em px para deixar o contudo de texto sem quebrar para uma barra lateral, contudo se passar o min ele acaba quebrando. Para min temos como referência 320px (celulares antigos) e máx 800px.
@@ -424,7 +423,7 @@ imagem"
             <h2>Atraso de animação</h2>
                 <p>Para criar um atraso de animação, devemos utilizar a tag <strong>transition-duration: tempo</strong>, para criar o seguinte efeito:</p>
         </div>
-        <div class="cdireita">
+        <div class="cdireita" id="ajustar-trabalhando-com-imagens-e-divs">
             <h2>Trabalhando com Imagens e Divs</h2>
                 <p>
                     Aqui vamos ver como colocar imagens no plano de fundo, para isso iremos fazer um site em que iremos separar as imagens em divs em que a tag style vai ter um <strong>display: iline-block</strong>. Essa tag deixa as divs uma do lado da outra.
@@ -451,7 +450,7 @@ imagem"
                     </p>
                 </p>
         </div>
-        <div class="cdireita">
+        <div class="cdireita" id="ajutar-alterando-verticalmente-posição-das-caixas">
             <h2>Alterando verticalmente posição das Caixas</h2>
         <p>
             Para alterar verticalmente uma caixa, precisamos inserir uma div dentro de outra div em que a div de <strong>fora tenha o position relative</strong> e a de <strong>dentro absolute</strong>.
@@ -462,6 +461,25 @@ section
 /section
             </pre>
         </p>
+        </div>
+        <div>
+            <h2>Construindo Tabelas</h2>
+            <p>
+                Tabelas no HTML são escritas com a tag table e dentro dela tem a seguinte hierarquia:
+                <ul>
+                    <li>tr (table row)</li>
+                    <li>td (table data)</li>
+                    <li>thead (table head - range)</li>
+                    <ul><li>th (table head - value)</li></ul>
+                </ul>
+                Para contruir uma tabela zebrada, podemos utilizar a Pseudo-Classe <strong>:nth-child(2n)</strong> onde o 2n representa o n° de linhas que ele vai pular.
+            </p>
+        </div>
+        <div>
+            <h2>Alinhando Verticalmente</h2>
+            <p>
+                Com a tag <strong>vertical-alaing</strong> é possível alinhar verticalmente a célula de uma tabela ou dado. Ao inves de número podemos utilizar ímpar (odd) ou par (even)
+            </p>
         </div>
     </main>
     <footer>

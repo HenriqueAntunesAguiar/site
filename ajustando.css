@@ -59,6 +59,7 @@ div {
     background-color: rgba(255, 255, 255, 0.884);
     border-radius: 5px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.247);
+    margin-bottom: 15px;
 }
 
 div h2{
@@ -82,6 +83,7 @@ div.cdireita{
     margin-right: 15vw ;
     padding: 1vw;
     margin-bottom: 2vw;
+    position: absolute;
 }
 div.ccentro{
     border: 1px solid black;
@@ -90,6 +92,21 @@ div.ccentro{
     height: auto;
     padding: 1vw;
     margin-bottom: 2vw;
+}
+
+div#ajustar-caixa{
+top:4535px
+}
+div#ajustar-responsividade{
+    top:5400px
+}
+
+div#ajustar-trabalhando-com-imagens-e-divs{
+    top:5805px
+}
+
+div#ajutar-alterando-verticalmente-posição-das-caixas{
+    top:6080px
 }
 
 footer{
