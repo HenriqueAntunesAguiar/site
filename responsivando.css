@@ -14,8 +14,7 @@ body {
 
 header{
     padding-top: 15px;
-    background-image: linear-gradient(90deg, var(--cor1) 0.1%,var
-    (--cor2) 85%,var(--cor3));
+    background-image: linear-gradient(90deg, var(--cor1) 0.1%,var(--cor2) 85%,var(--cor3));
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -27,7 +26,7 @@ header h1{
 
 }
 header > nav{
-    margin-top: 60px;
+    padding-top: 30px;
     background-image: linear-gradient(90deg, var(--cor1) 0.1%,var(--cor2) 85%,var(--cor3));
     text-align: center;
     padding-bottom: 30px;
@@ -35,20 +34,21 @@ header > nav{
     
 }
 
-nav > a{
+a{
     padding: 10px;
     color: white;
     font-size: large;
     text-decoration: none;
     font-weight: bolder;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.466);
+    width: auto;
 }
 
 nav > a:hover{
     background-color: white;
     color: var(--cor3);
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 5px 5px;
     text-shadow: none;
     text-decoration: underline;
 }
@@ -59,6 +59,7 @@ main{
     width: auto;
     margin: 0% 20%;
 }
+
 main > div {
     background-color: rgba(255, 255, 255, 0.884);
     border-radius: 5px;
@@ -73,7 +74,8 @@ main > div {
     margin-bottom: 1%;
 }
 div > p{
-    width: 300px;
+    width: auto;
+    max-width: 300px;
 }
 div h2{
     text-align: justify;
@@ -84,13 +86,13 @@ div.center{
     display: block;
 }
 div.center > p{
-    max-width: none;
+    max-width: auto;
     width: auto;
 
 }
 
 div.center > h2{
-    max-width: none;
+    max-width: auto;
     width: auto;
     text-align: center;
 }
@@ -98,6 +100,7 @@ div.center > h2{
     display: block;
     position: center center;
     margin: auto;
+    max-width: auto;
 
 }
 div > iframe{
